@@ -1,7 +1,7 @@
 /*
  * date: 2018-11-30
  * author: Level.Z
- * source: https://leetcode-cn.com/problems/reverse-integer/
+ * source: https://leetcode-cn.com/problems/longest-common-prefix/
  * Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "".
  *
  * Example 1:
