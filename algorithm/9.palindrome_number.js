@@ -1,7 +1,7 @@
 /*
  * date: 2018-11-28
  * author: Level.Z
- * source: https://leetcode-cn.com/problems/reverse-integer/
+ * source: https://leetcode-cn.com/problems/palindrome-number/
  * 
  * Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
  *
