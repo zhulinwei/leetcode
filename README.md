@@ -7,4 +7,5 @@
 |7|[reverse integer](./algorithm/7.reverse_integer.js)|整数反转|easy|
 |9|[palindrome number](./algorithm/9.palindrome_number.js)|回文数|easy|
 |14|[longest common prefix](./algorithm/14.longest_common_prefix.js)|最长公共前缀|easy|
-|20|[valid-parentheses](./algorithm/20.valid_parentheses.js)|有效的括号|easy|
+|20|[valid parentheses](./algorithm/20.valid_parentheses.js)|有效的括号|easy|
+|70|[climbing stairs](./algorithm/70.climbing_stairs.js)|爬楼梯|easy|
