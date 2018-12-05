@@ -8,5 +8,6 @@
 |9|[palindrome number](./algorithm/9.palindrome_number.js)|回文数|easy|yes|.|
 |14|[longest common prefix](./algorithm/14.longest_common_prefix.js)|最长公共前缀|easy|yes|yes|
 |20|[valid parentheses](./algorithm/20.valid_parentheses.js)|有效的括号|easy|yes|.|
+|35|[search insert position](./algorithm/35.search_insert_position.js)|搜索插入位置|easy|no|.|
 |70|[climbing stairs](./algorithm/70.climbing_stairs.js)|爬楼梯|easy|yes|yes|
 |215|[kth largest element in an array](./algorithm/215.kth_largest_element_in_an_array.js)|数组中的第K个最大元素|medium|no|yes|
