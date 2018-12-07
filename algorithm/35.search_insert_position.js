@@ -42,6 +42,5 @@ const searchInsert1 = function(nums, target) {
       left = middle + 1;
     } else return middle;
   }
-  return middle;
+  return left;
 };
- 
