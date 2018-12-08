@@ -44,3 +44,15 @@ const searchInsert1 = function(nums, target) {
   }
   return left;
 };
+
+const searchInsert2 = function(nums, target) {
+  if (!nums || nums.length < 1) return;
+  return _searchInsert(nums, 0, nums.length - 1, target);  
+  function _searchInsert(nums, left, right, target) {
+    if (left > right) return left;
+    let middle = left + ((right - left) >> 1);
+    if (nums[middle] > target) return _searchInsert(nums, left, middle - 1, target);
+    if (nums[middle] < target) return _searchInsert(nums, middle + 1, right, target);
+    return middle;
+  }
+}
