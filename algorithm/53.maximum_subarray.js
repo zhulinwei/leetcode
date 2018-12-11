@@ -17,18 +17,23 @@
 
 /*
  * 解法一：暴力穷举法
+ * 时间复杂度为O(n^2),空间复杂度为O(1);
  * 
  */
+
 const maxSubArray1 = function(nums) {
   if (!nums || nums.length < 1) return;
-  let max = 0;
-  for (let i = 0; i < nums.length - 1; i++) {
-    let current = 0;
+  // 假设第一个元素就是最大值
+  let max = nums[0];
+  for (let i = 0; i <= nums.length - 1; i++) {
+    // 将当前元素及其以后的全部元素加起来，这个过程会出现最大值，记录下来
+    let sum = nums[i];
+    let currentMax = nums[i];
     for (let j = i; j < nums.length - 1; j++) {
-      if (current > current + nums[j]) break;
-      current += nums[j];
+      sum += nums[j+1];
+      currentMax = Math.max(currentMax, sum);
     }
-    max = Math.max(current, max);
+    max = Math.max(currentMax, max);
   }
   return max;
 }
