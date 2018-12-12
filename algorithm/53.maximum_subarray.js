@@ -37,3 +37,37 @@ const maxSubArray1 = function(nums) {
   }
   return max;
 }
+
+/*
+ * 解法二：扫描法
+ * 判断和值是否大于0，是则继续添加下一位元素，否则将当前元素为起始值计算；
+ * 时间复杂度为O(n)，空间复杂度为O(1)
+ */
+const maxSubArray2 = function(nums) {
+  if (!nums || nums.legnth < 1) return;
+  let current = 0;
+  let max = nums[0];
+  for (num of nums) {
+    current = current < 0 ? num : current + num;
+    max = Math.max(max, current);
+  }
+  return max;
+}
+
+/*
+ * 解法三：动态规划
+ * 假设数组为A，当前元素为i，最大连续元素为F(i)，则有递推公式：F(i) = Max(F(i-1) + A(i), A(i))
+ * 时间复杂度为O(n), 空间复杂度为O(1)
+ */
+const maxSubArray3 = function(nums) {
+  if (!nums || nums.legnth < 1) return;
+    // 局部最优
+  let localMax = nums[0];
+  // 全局最优
+  let globalMax = nums[0];
+  for (let i = 1; i < nums.length; i++) {
+    localMax = Math.max(nums[i], localMax + nums[i]);
+    globalMax = Math.max(globalMax, localMax);
+  }
+  return globalMax;
+}
