@@ -11,6 +11,7 @@
 |35|[search insert position](./algorithm/35.search_insert_position.js)|搜索插入位置|easy|no|.|
 |53|[Maximum Subarray](./algorithm/53.maximum_subarray.js)|最大子序和|easy|yes|yes|
 |66|[plus one](./algorithm/66.plus_one.js)|加1|easy|yes|.|
+|67|[add binary](./algorithm/67.add_binary.js)|二进制求和|easy|no|.|
 |69|[sqrtx](./algorithm/69.sqrt.js)|x的平方根|easy|yes|yes|
 |70|[climbing stairs](./algorithm/70.climbing_stairs.js)|爬楼梯|easy|yes|yes|
 |215|[kth largest element in an array](./algorithm/215.kth_largest_element_in_an_array.js)|数组中的第K个最大元素|medium|no|yes|
