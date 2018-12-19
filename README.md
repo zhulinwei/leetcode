@@ -4,7 +4,7 @@
 |#|title|describe|difficulty|completion|recommend|
 |-|-----|--------|----------|----------|---------|
 |1|[tow sum](./algorithm/1.two_sum.js)|两数之和|easy|yes|yes|
-|2|[add two numbers](./algorithm/2.add_two_numbers.js)|两数相加|medium|no|yes|
+|2|[add two numbers](./algorithm/2.add_two_numbers.js)|两数相加|medium|yes|yes|
 |7|[reverse integer](./algorithm/7.reverse_integer.js)|整数反转|easy|yes|.|
 |9|[palindrome number](./algorithm/9.palindrome_number.js)|回文数|easy|yes|.|
 |14|[longest common prefix](./algorithm/14.longest_common_prefix.js)|最长公共前缀|easy|yes|yes|
