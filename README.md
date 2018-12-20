@@ -17,3 +17,7 @@
 |70|[climbing stairs](./algorithm/70.climbing_stairs.js)|爬楼梯|easy|yes|yes|
 |83|[remove duplicates from sorted list](./algorithm/83.remove_duplicates_from_sorted_list.js)|删除排序链表中的重复元素|easy|yes|yes|
 |215|[kth largest element in an array](./algorithm/215.kth_largest_element_in_an_array.js)|数组中的第K个最大元素|medium|no|yes|
+
+
+## Database
+|176|[second highest salary](./algorithm/176.second_highest_salary.js)|第二高薪|easy|yes|.|
