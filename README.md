@@ -21,4 +21,6 @@
 
 
 ## Database
+|#|title|describe|difficulty|completion|recommend|
+|-|-----|--------|----------|----------|---------|
 |176|[second highest salary](./algorithm/176.second_highest_salary.js)|第二高薪|easy|yes|.|
