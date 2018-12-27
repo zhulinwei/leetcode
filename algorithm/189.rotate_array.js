@@ -46,14 +46,58 @@ const rotate1 = function (nums, k) {
 } 
 
 /*
- * 解法二：互换位置
+ * 解法二：互换位置，该解法算是4种解法中最难理解的了
  */
-const rotate2 = function (nums, k) {
-  const length = nums.length;
-  for (let i = 0; i < length; i++) {
-    let target = i + k < length ? i + k : (i + k) % length;
-    let tem = num[target];
-    num[target] = num[i];
-    num[i] = num[target];
+const rotate3 = function(nums, k) {
+  k %= nums.length;
+  if (k == 0) return;
+
+  for (let i = 1, j = 0; i <= nums.length; i += 1) {
+    let target = (k * i + j) % nums.length;
+    if (target === j) {
+        j += 1;
+        continue;
+    }
+    swap(nums, j, target);
   }
+};
+
+function swap(arr, i, j) {
+  const tmp = arr[i];
+  arr[i] = arr[j];
+  arr[j] = tmp;
+}
+
+/*
+ * 解法三：将最后一个元素移到第一位，重复k次（k如果大于nums.length则可取k%nums.length）
+ */
+const rotate3 = function (nums, k) {
+  let count = k % nums.length;
+  for (let i = 0; i < count; i++) {
+    nums.unshift(nums.pop());
+  }
+  return nums;
+}
+
+/*
+ * 解法四：先将元素全部反转，再分别反转0- k-1 和 k-nums.length-1 的元素
+ * 如数组[1,2,3,4]向右移动两个单位，我们可以先全部反转，即[4,3,2,1]，再反转0-1，即[3,4,2,1]，最后反转2-3，即[3,4,1,2]
+ */
+
+const reverse4 = function (nums, start, end) {
+  while (start < end) {
+    let temp = nums[start];
+    nums[start] = nums[end];
+    nums[end] = temp;
+    start++;
+    end--;
+  }
+}
+
+const rotate = function (nums, k) {
+  let pivot = k % nums.length;
+  reverse(nums, 0, nums.length - 1);
+  reverse(nums, 0, pivot - 1);
+  reverse(nums, pivot, nums.length - 1);
+  return nums;
 }
