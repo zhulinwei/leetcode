@@ -25,4 +25,4 @@
 |#|title|describe|difficulty|completion|recommend|
 |-|-----|--------|----------|----------|---------|
 |176|[second highest salary](./algorithm/176.second_highest_salary.js)|第二高薪|easy|yes|.|
-|183|[customers who never order](./algorithm/183.customers_who_never_orfer.js)|从不订购的客户|easy|yes|.|
+|183|[customers who never order](./algorithm/183.customers_who_never_order.js)|从不订购的客户|easy|yes|.|
