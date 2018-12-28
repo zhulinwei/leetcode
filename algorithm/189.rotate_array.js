@@ -47,25 +47,28 @@ const rotate1 = function (nums, k) {
 
 /*
  * 解法二：互换位置，该解法算是4种解法中最难理解的了
+ * 以数组[1,2,3,4]向右移动2个单位为例
+ * 1.将1抛到3的位置，即[3,2,1,4]
+ * 2.经计算当前3本来就应该在1的位置，那么我们将存储池的位置往后移动到2
+ * 3.将2抛到4的位置，即[3,4,1,2]
  */
-const rotate3 = function(nums, k) {
-  k %= nums.length;
-  if (k == 0) return;
-
-  for (let i = 1, j = 0; i <= nums.length; i += 1) {
-    let target = (k * i + j) % nums.length;
-    if (target === j) {
-        j += 1;
-        continue;
+const rotate2 = function (nums, k) {
+  if (k % nums.length == 0) return nums;
+   
+  let storagePool = 0;
+  for (let i = 1; i < nums.length; i++) {
+    // 将存储池中的元素扔到它应该去的地方
+    let target = ((k * i) + storagePool) % nums.length;
+    // 注意出现死循环的情况，此时存储池位置应该往前移动
+    if (target == storagePool) {
+      storagePool++;
+      continue;
     }
-    swap(nums, j, target);
+    let temp = nums[target];
+    nums[target] = nums[storagePool];
+    nums[storagePool] = temp;
   }
-};
-
-function swap(arr, i, j) {
-  const tmp = arr[i];
-  arr[i] = arr[j];
-  arr[j] = tmp;
+  return nums;
 }
 
 /*
