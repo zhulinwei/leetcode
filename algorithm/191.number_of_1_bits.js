@@ -30,12 +30,13 @@
 /*
  * 解法一：位运算
  */
-const hammingWeight1 = function (integer) {
+const hammingWeight1 = function (bits) {
   let count = 0;
-  while (integer > 0) {
-    if ((integer & 1) == 1) count++;
-    // 将integer 的二进制表示向右移1位，丢弃被移出的位，并使用 0 在左侧填充
-    integer = integer >>> 1;
+  while (bits > 0) {
+    // 1 在32位中的表示为：0000....001，所有和0相&的都是是0，所有我们bits&1只是判断bits的最后一位是不是1
+    if ((bits & 1) == 1) count++;
+    // 将bits的二进制表示向右移1位，丢弃被移出的位，并使用 0 在左侧填充
+    bits = bits >>> 1;
   }
   return count;
 }
