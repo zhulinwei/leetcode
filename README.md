@@ -17,6 +17,7 @@
 |70|[climbing stairs](./algorithm/70.climbing_stairs.js)|爬楼梯|easy|yes|yes|
 |83|[remove duplicates from sorted list](./algorithm/83.remove_duplicates_from_sorted_list.js)|删除排序链表中的重复元素|easy|yes|yes|
 |104|[maximum depth of binary tree](./algorithm/104.maximum_depth_of_binary_tree.js)|二叉树的最大深度|easy|yes|yes|
+|101|[minimum depth of binary tree](./algorithm/111.minimum_depth_of_binary_tree..js)|二叉树的最小深度|easy|yes|yes|
 |169|[majority element](./algorithm/169.majority_element.js)|求众数|easy|yes|.|
 |189|[rotate array](./algorithm/189.rotate_array.js)|旋转数组|easy|yes|yes|
 |190|[reverse bits](./algorithm/190.reverse_bits.js)|颠倒二进制位|easy|yes|.|

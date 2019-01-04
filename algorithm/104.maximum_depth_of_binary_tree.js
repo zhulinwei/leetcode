@@ -62,9 +62,9 @@ const maxDepth1 = function (root) {
  * 缺点：代码实现比DFS版本复杂
  */
 const maxDepth2 = function (root) {
-  if (!root) return 0;
-
   let depth = 0;
+  if (!root) return depth;
+
   let queue = [ [ root, 1 ] ];
   while (queue.length > 0) {
     let [ currentRoot, currentDepth ] = queue.shift();
