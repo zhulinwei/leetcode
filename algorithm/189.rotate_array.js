@@ -87,7 +87,7 @@ const rotate3 = function (nums, k) {
  * 如数组[1,2,3,4]向右移动两个单位，我们可以先全部反转，即[4,3,2,1]，再反转0-1，即[3,4,2,1]，最后反转2-3，即[3,4,1,2]
  */
 
-const reverse4 = function (nums, start, end) {
+const reverse = function (nums, start, end) {
   while (start < end) {
     let temp = nums[start];
     nums[start] = nums[end];
@@ -97,7 +97,7 @@ const reverse4 = function (nums, start, end) {
   }
 }
 
-const rotate = function (nums, k) {
+const rotate4 = function (nums, k) {
   let pivot = k % nums.length;
   reverse(nums, 0, nums.length - 1);
   reverse(nums, 0, pivot - 1);
