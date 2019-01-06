@@ -16,8 +16,12 @@
 |69|[sqrtx](./algorithm/69.sqrt.js)|x的平方根|easy|yes|yes|
 |70|[climbing stairs](./algorithm/70.climbing_stairs.js)|爬楼梯|easy|yes|yes|
 |83|[remove duplicates from sorted list](./algorithm/83.remove_duplicates_from_sorted_list.js)|删除排序链表中的重复元素|easy|yes|yes|
+|94|[binary tree inorder traversal](./algorithm/94.binary_tree_inorder_traversal.js)|二叉树的中序遍历|medium|yes|yes|
+|102|[binary tree level order traversal](./algorithm/102.binary_tree_level_order_traversal.js)|二叉树的层次遍历|medium|no|.|
 |104|[maximum depth of binary tree](./algorithm/104.maximum_depth_of_binary_tree.js)|二叉树的最大深度|easy|yes|yes|
 |101|[minimum depth of binary tree](./algorithm/111.minimum_depth_of_binary_tree..js)|二叉树的最小深度|easy|yes|yes|
+|144|[binary tree preorder traversal](./algorithm/144.binary_tree_preorder_traversal.js)|二叉树的前序遍历|medium|yes|yes|
+|145|[binary tree postorder traversal](./algorithm/145.binary_tree_postorder_traversal.js)|二叉树的后序遍历|hard|yes|yes|
 |169|[majority element](./algorithm/169.majority_element.js)|求众数|easy|yes|.|
 |189|[rotate array](./algorithm/189.rotate_array.js)|旋转数组|easy|yes|yes|
 |190|[reverse bits](./algorithm/190.reverse_bits.js)|颠倒二进制位|easy|yes|.|
@@ -29,4 +33,6 @@
 |#|title|describe|difficulty|completion|recommend|
 |-|-----|--------|----------|----------|---------|
 |176|[second highest salary](./database/176.second_highest_salary.js)|第二高薪|easy|yes|.|
+|181|[employees earning more than their managers](./database/181.employees_earning_more_than_their_managers.js)|超过经理收入的员工|easy|yes|.|
 |183|[customers who never order](./database/183.customers_who_never_order.js)|从不订购的客户|easy|yes|.|
+
