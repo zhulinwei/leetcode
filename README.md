@@ -28,6 +28,7 @@
 |191|[number of 1 bits](./algorithm/191.number_of_1_bits.js)|位1的个数|easy|yes|.|
 |215|[kth largest element in an array](./algorithm/215.kth_largest_element_in_an_array.js)|数组中的第K个最大元素|medium|no|yes|
 |226|[invert binary tree](./algorithm/226.invert_binary_tree.js)|翻转二叉树|easy|yes|.|
+|700|[search in a binary search tree](./algorithm/700.search_in_a_binary_search_tree.js)|二叉搜索树中的搜索|easy|yes|.|
 
 
 ## Database
