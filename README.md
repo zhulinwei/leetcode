@@ -20,7 +20,8 @@
 |100|[same tree](./algorithm/100.same_tree.js)|相同的树|easy|yes|.| 
 |101|[symmetric tree](./algorithm/101.symmetric_tree.js)|对称二叉树 |easy|yes|.| 
 |104|[maximum depth of binary tree](./algorithm/104.maximum_depth_of_binary_tree.js)|二叉树的最大深度|easy|yes|yes|
-|111|[minimum depth of binary tree](./algorithm/111.minimum_depth_of_binary_tree..js)|二叉树的最小深度|easy|yes|yes|
+|110|[balanced binary tree](./algorithm/110.balanced_binary_tree.js)|平衡二叉树|easy|yes|.|
+|111|[minimum depth of binary tree](./algorithm/111.minimum_depth_of_binary_tree.js)|二叉树的最小深度|easy|yes|yes|
 |144|[binary tree preorder traversal](./algorithm/144.binary_tree_preorder_traversal.js)|二叉树的前序遍历|medium|yes|yes|
 |145|[binary tree postorder traversal](./algorithm/145.binary_tree_postorder_traversal.js)|二叉树的后序遍历|hard|yes|yes|
 |169|[majority element](./algorithm/169.majority_element.js)|求众数|easy|yes|.|
