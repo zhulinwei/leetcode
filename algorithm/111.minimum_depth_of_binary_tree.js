@@ -18,8 +18,8 @@
 
 // Definition for a binary tree node.
 function TreeNode(val) {
-    this.val = val;
-    this.left = this.right = null;
+  this.val = val;
+  this.left = this.right = null;
 }
 
 /*
@@ -33,20 +33,6 @@ const minDepth1 = function (root) {
   let right = minDepth(root.right);
   if (left && right) return Math.min(left, right) + 1;
   else return Math.max(left, right) + 1;
-}
-
-const minDepth = function (root) {
-  if (!root) return 0;
-  let minDepth = 0;
-  let queue = [ [root, 1] ];
-  while (queue.length > 0) {
-    let [ currentRoot, currentDepth ] = queue.shift();
-    if (!currentRoot) continue;
-    let leftRoot = currentRoot.left;
-    let rightRoot = currentRoot.right;
-    if (!(leftRoot && rightRoot)) return currentDepth + 1;
-    queue.push([leftRoot, currentDepth + 1], [rightRoot, currentDepth + 1]);
-  }
 }
 
 /*
@@ -72,15 +58,17 @@ const minDepth2 = function (root) {
 /*
  * 优化解法二
  */
+
 const minDepth3 = function (root) {
   if (!root) return 0;
+  let minDepth = 0;
   let queue = [ [root, 1] ];
   while (queue.length > 0) {
-    let [ currentNode, currentDepth ] = queue.shift();
-    if (!currentNode) continue;
-    let leftNode = currentNode.left;
-    ler rightNode = currentNode.right;
-    if (!leftNode && !rightNode) return currentDepth;
-    else queue.push([ leftNode, currentDepth + 1 ], [ rightNode, currentDepth + 1]);
+    let [ currentRoot, currentDepth ] = queue.shift();
+    if (!currentRoot) continue;
+    let leftRoot = currentRoot.left;
+    let rightRoot = currentRoot.right;
+    if (!(leftRoot && rightRoot)) return currentDepth + 1;
+    queue.push([leftRoot, currentDepth + 1], [rightRoot, currentDepth + 1]);
   }
 }
