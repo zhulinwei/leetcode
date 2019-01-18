@@ -5,6 +5,7 @@
 |-|-----|--------|----------|----------|---------|
 |1|[tow sum](./algorithm/1.two_sum.js)|两数之和|easy|yes|yes|
 |2|[add two numbers](./algorithm/2.add_two_numbers.js)|两数相加|medium|yes|yes|
+|3|[longest substring without repeating characters](./algorithm/3.longest_substring_without_repeating_characters.js)|无重复字符的最长子串|medium|no|yes|
 |7|[reverse integer](./algorithm/7.reverse_integer.js)|整数反转|easy|yes|.|
 |9|[palindrome number](./algorithm/9.palindrome_number.js)|回文数|easy|yes|.|
 |14|[longest common prefix](./algorithm/14.longest_common_prefix.js)|最长公共前缀|easy|yes|yes|
@@ -31,6 +32,7 @@
 |215|[kth largest element in an array](./algorithm/215.kth_largest_element_in_an_array.js)|数组中的第K个最大元素|medium|no|yes|
 |226|[invert binary tree](./algorithm/226.invert_binary_tree.js)|翻转二叉树|easy|yes|.|
 |257|[binary tree paths](./algorithm/257.binary_tree_paths.js)|二叉树的所有路径|easy|yes|.|
+|450|[delete node in a bst](./algorithm/450.delete_node_in_a_bst.js)|删除二叉搜索树中的节点|medium|yes|yes|
 |617|[merge two binary trees](./algorithm/617.merge_two_binary_trees.js)|合并二叉树|easy|no|.|
 |700|[search in a binary search tree](./algorithm/700.search_in_a_binary_search_tree.js)|二叉搜索树中的搜索|easy|yes|.|
 
