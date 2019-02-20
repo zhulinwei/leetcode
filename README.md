@@ -5,7 +5,8 @@
 |-|-----|--------|----------|----------|---------|
 |1|[tow sum](./algorithm/1.two_sum.js)|两数之和|easy|yes|yes|
 |2|[add two numbers](./algorithm/2.add_two_numbers.js)|两数相加|medium|yes|yes|
-|3|[longest substring without repeating characters](./algorithm/3.longest_substring_without_repeating_characters.js)|无重复字符的最长子串|medium|no|yes|
+|3|[longest substring without repeating characters](./algorithm/3.longest_substring_without_repeating_characters.js)|无重复字符的最长子串|medium|yes|yes|
+|4|[median of two sorted arrays](./algorithm/4.median_of_two_sorted_arrays.js)|寻找两个有序数组的中位数|hard|no|no|
 |5|[longest palindromic substring](./algorithm/5.longest_palindromic_substring.js)|最长回文子串|medium|no|yes|
 |7|[reverse integer](./algorithm/7.reverse_integer.js)|整数反转|easy|yes|.|
 |9|[palindrome number](./algorithm/9.palindrome_number.js)|回文数|easy|yes|.|
@@ -30,6 +31,7 @@
 |189|[rotate array](./algorithm/189.rotate_array.js)|旋转数组|easy|yes|yes|
 |190|[reverse bits](./algorithm/190.reverse_bits.js)|颠倒二进制位|easy|yes|.|
 |191|[number of 1 bits](./algorithm/191.number_of_1_bits.js)|位1的个数|easy|yes|.|
+|206|[reverse linked list](./algorithm/206.reverse_linked_list.js)|反转链表|easy|no|.|
 |215|[kth largest element in an array](./algorithm/215.kth_largest_element_in_an_array.js)|数组中的第K个最大元素|medium|no|yes|
 |226|[invert binary tree](./algorithm/226.invert_binary_tree.js)|翻转二叉树|easy|yes|.|
 |257|[binary tree paths](./algorithm/257.binary_tree_paths.js)|二叉树的所有路径|easy|yes|.|
