@@ -47,4 +47,5 @@
 |176|[second highest salary](./database/176.second_highest_salary.js)|第二高薪|easy|yes|.|
 |181|[employees earning more than their managers](./database/181.employees_earning_more_than_their_managers.js)|超过经理收入的员工|easy|yes|.|
 |183|[customers who never order](./database/183.customers_who_never_order.js)|从不订购的客户|easy|yes|.|
+|196|[delete-duplicate-emails](./database/196.customers_who_never_order.js)|删除重复的电子邮箱|easy|no|.|
 
