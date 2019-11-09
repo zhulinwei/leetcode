@@ -33,9 +33,9 @@
  * 解法一：customers 左并入 orders表中
  */
 
-select Name as Customers from Customers customers left join Orders orders on customers.Id = orders.CustomerId where orders.CustomerId is Null;
+SELECT Name AS Customers FROM Customers customers LEFT JOIN Orders orders ON customers.Id = orders.CustomerId WHERE orders.CustomerId IS NULL;
 
 /*
  * 解法二：直接使用not in
  */
-select Name as Customers from Customers customers where customers.Id not in (select CustomerId from Orders);
+SELECT Name AS Customers FROM Customers customers WHERE customers.Id NOT IN (SELECT CustomerId FROM Orders);

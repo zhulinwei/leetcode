@@ -24,10 +24,10 @@
 /*
  * 解法一：使用left join
  */
-select employee1.Name as Employee from Employee employee1 left join Employee employee2 on employee1.ManagerId = employee2.Id where employee1.Salary > employee2.Salary;
+SELECT employee1.Name AS Employee FROM Employee employee1 LEFT JOIN Employee employee2 ON employee1.ManagerId = employee2.Id WHERE employee1.Salary > employee2.Salary;
 
 /*
  * 解法二：使用where 和 and
  */
-select employee1.Name as Employee from Employee employee1, Employee employee2 where employee1.ManagerId = employee2.Id and employee1.Salary > employee2.Salary;
+SELECT employee1.Name AS Employee FROM Employee employee1, Employee employee2 WHERE employee1.ManagerId = employee2.Id AND employee1.Salary > employee2.Salary;
 

@@ -24,5 +24,5 @@
  */
 
 // MySQL 语法
-select (select distinct Salary from Employee order by Salary desc limit 1, 1) as SecondHighestSalary;
+SELECT (SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC limit 1, 1) AS SecondHighestSalary;
 

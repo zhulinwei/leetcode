@@ -30,7 +30,7 @@
  * 解法:找到多余emil的id，然后删除
  */
 
-// 找到id
-select p1.* from Person p1, Person p2 where p1.Email = p2.Email and p1.Id > p2.Id;
-// 删除id
-delete p1 from Person p1, Person p2 where p1.Email = p2.Email and p1.Id > p2.Id;
+# 找到id
+SELECT p1.* FROM Person p1, Person p2 WHERE p1.Email = p2.Email AND p1.Id > p2.Id;
+# 删除id
+DELETE p1 FROM Person p1, Person p2 WHERE p1.Email = p2.Email AND p1.Id > p2.Id;

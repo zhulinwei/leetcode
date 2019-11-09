@@ -1,5 +1,4 @@
-/*
- * date: 2018-12-19
+/* * date: 2018-12-19
  * author: Level.Z
  * source: https://leetcode-cn.com/problems/combine-two-tables/
  *
@@ -29,5 +28,5 @@
  * FirstName, LastName, City, State
  */
 
-select person.FirstName, person.LastName, address.City, address.State from Person person left join Address address on person.PersonId = address.PersonId;
+SELECT person.FirstName, person.LastName, address.City, address.State FROM Person person LEFT JOIN Address address ON person.PersonId = address.PersonId;
  
